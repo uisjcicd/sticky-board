@@ -4,7 +4,7 @@ A simple, fun sticky notes app built with Angular.
 
 ## Demo
 
-![StickyBoard Demo](./sticky-board-demo.gif)
+![StickyBoard Demo](./public/sticky-board-preview.gif)
 
 ## Features
 
