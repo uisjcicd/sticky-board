@@ -1,0 +1,4 @@
+<div class="sticky-note" cdkDrag [style.background-color]="note.color">
+    <button (click)="deleteNote()" class="btn-delete">x</button>
+    <p>{{note.text}}</p>
+</div>

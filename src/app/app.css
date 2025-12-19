@@ -1,0 +1,63 @@
+.app-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  background: linear-gradient(135deg, #ffeb3b, #ff69b4);
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.icon {
+  font-size: 32px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.notes {
+  height: 2rem;
+  width: 12rem;
+  border-radius: 1rem;
+}
+
+.addNotes {
+  border-radius: 1rem;
+  height: 2rem;
+  width: 5rem;
+}
+
+.color-btn {
+  width: 30px;
+  height: 30px;
+  border: 2px solid transparent;
+  border-radius: 50%; /* circle shape */
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.color-btn:hover {
+  transform: scale(1.1);
+}
+
+.color-btn.selected {
+  border-color: #333;
+}
+
+.notes-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
