@@ -2,6 +2,10 @@
 
 A simple, fun sticky notes app built with Angular.
 
+## Screenshot
+
+![StickyBoard Screenshot](public/sticky-board-preview.png)
+
 ## Features
 
 - ✅ Create notes with custom text
